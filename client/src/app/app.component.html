@@ -1,7 +1,10 @@
-<h1>{{title}}</h1>
+<app-nav></app-nav>
 
-<ul class="a">
-    <li *ngFor='let user of users'>
-        {{user.id}} - {{user.userName}}
-    </li>
-</ul>
+<div class="container px-5" id="main-container">
+    <app-home></app-home>
+    <!--<ul class="a">
+        <li *ngFor='let user of users'>
+            {{user.id}} - {{user.userName}}
+        </li>
+    </ul>-->
+</div>
