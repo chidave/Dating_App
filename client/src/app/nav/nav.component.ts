@@ -38,6 +38,10 @@ export class NavComponent implements OnInit {
     //this.loggedIn = false;
   }
 
+  edit() {
+    this.router.navigateByUrl('/member/edit')
+  }
+
   /*getCurrentUser() {
     this.accountService.currentuser$.subscribe(user => {
       this.loggedIn = !!user;  //changes the user to a boolean
